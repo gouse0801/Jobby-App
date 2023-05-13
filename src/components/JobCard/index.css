@@ -1,0 +1,147 @@
+.job-card-link-item {
+  text-decoration: none;
+}
+
+.job-card-container {
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.job-logo-title-rating-container {
+  display: flex;
+}
+
+.company-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-text {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.rating-text {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.location-type-package-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-type-container {
+  display: flex;
+}
+
+.location-type-inner-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.location-job-icon {
+  color: #ffffff;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+}
+
+.location-employment-text {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.package-text {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.description-title {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.job-description {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+
+  .company-logo {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+  }
+
+  .title-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .star-icon {
+    margin-right: 10px;
+    height: 28px;
+    width: 28px;
+  }
+
+  .rating-text {
+    font-size: 24px;
+  }
+
+  .location-type-inner-container {
+    margin-right: 20px;
+  }
+
+  .location-job-icon {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .location-employment-text {
+    font-size: 18px;
+  }
+
+  .package-text {
+    font-size: 22px;
+  }
+
+  .description-title {
+    font-size: 22px;
+  }
+
+  .job-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
